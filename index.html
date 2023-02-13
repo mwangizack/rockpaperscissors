@@ -9,7 +9,34 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="scoreboard">
+        <div class="badge" id="user-label">User</div>
+        <div class="badge" id="comp-label">Comp</div>
+        <span id="user-score">0</span> : <span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers Rock. You win!</p>
+    </div>
+
+    <div class="choices">
+        <div id="rock" class="choice">
+            <img src="assets/img/rock.png" alt="hand rock symbol"/>
+        </div>
+        <div id="paper" class="choice">
+            <img src="assets/img/paper.png" alt="hand paper symbol"/>
+        </div>
+        <div id="scissors" class="choice">
+            <img src="assets/img/scissors.png" alt="hand scissors symbol"/>
+        </div>
+    </div>
+
+    <p id="action-message">Choose your weapon.</p>
+
     <!-- Custom JS -->
     <script src="assets/js/main.js"></script>
 </body>
