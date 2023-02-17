@@ -85,11 +85,11 @@ header h1 {
 }
 
 .green-glow{
-  border: 3px solid #4dcc7d;
+  border: 3px solid #4dcc7d !important; 
   box-shadow: 0 0 10px #31b43a;
 }
 
 .red-glow{
-  border: 3px solid #fc121b;
+  border: 3px solid #fc121b !important; 
   box-shadow: 0 0 10px #d01115;
 }
