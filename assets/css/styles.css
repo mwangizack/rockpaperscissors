@@ -35,7 +35,7 @@ header h1 {
 .badge {
   background-color: #e25840;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   padding: 5px 10px;
 }
 
@@ -48,7 +48,7 @@ header h1 {
 #comp-label {
   position: absolute;
   top: 30px;
-  right: -40px;
+  right: -38px;
 }
 
 .result {
@@ -77,11 +77,9 @@ header h1 {
   cursor: pointer;
 }
 
-#action-message{
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
+#action-message {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
 }
-
-
