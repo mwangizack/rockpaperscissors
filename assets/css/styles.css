@@ -93,3 +93,37 @@ header h1 {
   border: 3px solid #fc121b !important; 
   box-shadow: 0 0 10px #d01115;
 }
+
+.tooltip{
+  position: relative;
+}
+
+.tooltip .tooltip-text{
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%;
+  left: 50%;
+  margin-left: -35px;
+  width: 70px;
+  background-color: #FFF;
+  color: #e25840;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.tooltip .tooltip-text::after{
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #FFF transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text{
+  visibility: visible;
+}
